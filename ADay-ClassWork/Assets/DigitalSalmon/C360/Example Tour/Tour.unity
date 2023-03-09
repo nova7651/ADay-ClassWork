@@ -255,6 +255,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114077109926090710, guid: 2010b0132535624418bf69e9775d38e8, type: 3}
+      propertyPath: requireButton
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114077109926090710, guid: 2010b0132535624418bf69e9775d38e8, type: 3}
       propertyPath: smoothingMultiplier
       value: 3
       objectReference: {fileID: 0}
@@ -472,11 +476,11 @@ PrefabInstance:
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
       propertyPath: tour
       value: 
-      objectReference: {fileID: 11400000, guid: bd1c948be0093a8478c7f11afb57b143, type: 2}
+      objectReference: {fileID: 11400000, guid: e8893d5ea101e4f4d9ef6b7a87feb1b8, type: 2}
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
       propertyPath: entryNode
       value: 
-      objectReference: {fileID: 829318939991073187, guid: bd1c948be0093a8478c7f11afb57b143, type: 2}
+      objectReference: {fileID: 69058555370830685, guid: e8893d5ea101e4f4d9ef6b7a87feb1b8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
 --- !u!1001 &1314950470

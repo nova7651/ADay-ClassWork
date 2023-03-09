@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6324187725499193760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] waterside walkway -> waterside walkway but with trees'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8442508774640391730}
+  targetNode: {fileID: 8216521780146812165}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.89663464, y: 0.4903846}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-316473180965263314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] waterside walkway -> high place'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8442508774640391730}
+  targetNode: {fileID: 69058555370830685}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.06490385, y: 0.4903846}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -234030243, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: miami
+  m_EditorClassIdentifier: 
+  defaultHotspot:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  graphBackground: {fileID: 0}
+  graphBackgroundSize: 1000
+  graphBackgroundAlpha: 1
+  graphOffset: {x: 0, y: 0}
+  graphZoom: 1
+  nodeCollection:
+    nodes:
+    - {fileID: 69058555370830685}
+    - {fileID: 8442508774640391730}
+    - {fileID: 8216521780146812165}
+--- !u!114 &69058555370830685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: high place
+  m_EditorClassIdentifier: 
+  name: high place
+  position: {x: 60, y: 120}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  elements:
+    elements:
+    - {fileID: 9131996389829750883}
+    - {fileID: 9189299101795659100}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: eeafddc84d0550544b0673972d178d89, type: 3}
+  urlLoadDatas: []
+--- !u!114 &7399525668822558420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] waterside walkway but with trees -> high place'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8216521780146812165}
+  targetNode: {fileID: 69058555370830685}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.8629808, y: 0.47596154}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &7693491900130017981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] waterside walkway but with trees -> waterside walkway'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8216521780146812165}
+  targetNode: {fileID: 8442508774640391730}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.088942304, y: 0.50961536}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &8216521780146812165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: waterside walkway but with trees
+  m_EditorClassIdentifier: 
+  name: waterside walkway but with trees
+  position: {x: 180, y: 270}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  elements:
+    elements:
+    - {fileID: 7399525668822558420}
+    - {fileID: 7693491900130017981}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: e766c97d40f2d5f45b3120cf452bb653, type: 3}
+  urlLoadDatas: []
+--- !u!114 &8442508774640391730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: waterside walkway
+  m_EditorClassIdentifier: 
+  name: waterside walkway
+  position: {x: 300, y: 120}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  elements:
+    elements:
+    - {fileID: -316473180965263314}
+    - {fileID: -6324187725499193760}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 0f3a6724d7373c742b3005cf9452661c, type: 3}
+  urlLoadDatas: []
+--- !u!114 &9131996389829750883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] high place -> waterside walkway'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 69058555370830685}
+  targetNode: {fileID: 8442508774640391730}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.098557696, y: 0.50961536}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &9189299101795659100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] high place -> waterside walkway but with trees'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 69058555370830685}
+  targetNode: {fileID: 8216521780146812165}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.91346157, y: 0.5}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
